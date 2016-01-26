@@ -11,7 +11,7 @@
  * Date: 1/26/2016
  * Time: 5:23 PM
  */
-
+#if statement klopt niet
 $leeftijd = $_POST ["getal"];
 $prijs = 0;
 

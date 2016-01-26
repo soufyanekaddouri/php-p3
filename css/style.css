@@ -1,0 +1,56 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: url("https://download.unsplash.com/photo-1429051883746-afd9d56fbdaf");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: #a3fffc;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.66);
+    width: 1000px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #000000;
+}
+
+ul {
+    list-style: none;
+}
+
+code {
+    background-color:  dodgerblue;
+}
+
+h1    {
+    color: #FFFFFF;
+    font-size: 170%;
+}
+
+h2, h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+
+}
+
+a:visited {
+    color: dodgerblue;;
+}
+
+a:hover {
+    color:  red;
+}
