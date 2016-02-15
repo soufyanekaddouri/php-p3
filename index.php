@@ -12,8 +12,10 @@
     <section>
         <h1>PHP opdrachten Soufyane Kaddouri</h1>
     <ul>
-        <li><a href = "helloworld.php">Opdracht 1 en 2 : Hello World! & Boolean</a></li>
-        <li><a href = "busreis.php">Opdracht 3 en 4: Foutmelding & Busreis</a></li>
+        <li><a href = "introductie/helloworld.php">Opdracht 1 en 2 : Hello World! & Boolean</a></li>
+        <li><a href = "introductie/busreis.php">Opdracht 3 en 4: Foutmelding & Busreis</a></li>
+        <li><a href = "introductie/kerstboom.php">Opdracht 5 en 6: Kerstboom tekenen & for-loop</a></li>
+        <li><a href = "introductie/zwemclubs.php">Opdracht 7: Zwemclubs</a></li>
     </ul>
     </section>
     </body>
