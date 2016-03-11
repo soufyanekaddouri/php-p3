@@ -10,13 +10,13 @@
 <section>
     <h1>Opdracht 5: Kerstboom tekenen</h1>
     <?php
-        $sterretjes = ["*","**","***","****","*****","******"];
+        $sterretje = "*";
 
 
     ?>
     <p>
         <?php
-        for ($i = 0; $i < sizeof($sterretjes);  $i++) {
+        for ($i = 0; $i < sizeof($sterretje);  $i++) {
             echo $sterretjes[0];
         }
         ?>

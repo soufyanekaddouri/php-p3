@@ -46,11 +46,11 @@ p {
 }
 
 a {
-
+    color: #31ff00;
 }
 
 a:visited {
-    color: dodgerblue;;
+    color: #31ff00;;
 }
 
 a:hover {
@@ -62,9 +62,22 @@ a:hover {
 }
 
 .formulier {
-    width: 400px;
+    width: 315px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(0, 193, 243, 0.52);
     padding:10px;
+}
+
+.afspraken {
+    background-color: #a49ea4;
+    color: black;
+    font-weight: 600;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tdinput {
+    width: 50px;
 }

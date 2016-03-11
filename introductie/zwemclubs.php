@@ -6,11 +6,13 @@
     <link href = "../css/style.css" rel="stylesheet">
 </head>
 <?php
+# Geen waarde text
+$gw = "GEEN WAARDE";
 # Er word pas gekeken naar de invoer, als er wat ingevoerd is.
-if (isset($_POST["spartelInput"])) {$spartel  = ($_POST["spartelInput"]);} else {$spartel = 0; }
-if (isset($_POST["buffelInput"])) {$buffel  = ($_POST["buffelInput"]); } else { $buffel = 0; }
-if (isset($_POST["plonsInput"])) {$plons  = ($_POST["plonsInput"]); } else { $plons = 0; }
-if (isset($_POST["bomInput"])) {$bom  = ($_POST["bomInput"]); } else { $bom = 0; }
+$spartel = ($_POST["spartelInput"] ? $_POST["spartelInput"] : $gw);
+$buffel = ($_POST["buffelInput"] ? $_POST["spartelInput"] : $gw);
+$plons = ($_POST['plonsInput'] ? $_POST["spartelInput"] : $gw);
+$bom   = ($_POST['bomInput']  ? $_POST["spartelInput"] :  $gw);
 
 # Alle zwemclubs in een Array
 $zwemclubs = [
@@ -84,9 +86,10 @@ $aantalBommetjes = ($bom - ($bom%5)) /5;
                     <td><input type="submit" value="Update"></td>
                 </tr>
             </table>
+        </form>
+        </div>
 
-                    </form>
-               </div>
+        <h1><a href = "https://github.com/soufyanekaddouri/php-p3/blob/master/introductie/zwemclubs.php" target = "_blank">Link naar de code</a></h1>
           </section>
      </body>
 </html>
