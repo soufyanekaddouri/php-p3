@@ -17,6 +17,7 @@
         <li><a href = "introductie/kerstboom.php">Opdracht 5 en 6: Kerstboom tekenen & for-loop</a></li>
         <li><a href = "introductie/zwemclubs.php">Opdracht 7: Zwemclubs</a></li>
         <li><a href = "introductie/kapperszaak.php">Opdracht 8: Kapperszaak Sanders</a></li>
+        <li><a href = "introductie/functies.php">Opdracht 9: Functies</a></li>
     </ul>
     </section>
     </body>
